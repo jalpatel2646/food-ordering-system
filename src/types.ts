@@ -22,6 +22,7 @@ export interface Member {
     name: string;
     memberId: string;
     level: MembershipLevel;
+    discountPercentage: number;
 }
 
 export type Customer = Guest | Member;
