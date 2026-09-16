@@ -1,12 +1,12 @@
-# 🍔 TypeScript Food Ordering & Billing System
+#  TypeScript Food Ordering & Billing System
 
 A fully interactive, strictly-typed terminal-based application built natively in Node.js and TypeScript. This project serves as a robust backend logic simulation of a restaurant's ordering and billing lifecycle—operating entirely without a frontend.
 
-**🔗 GitHub Repository:** [jalpatel2646/food-ordering-system](https://github.com/jalpatel2646/food-ordering-system)
+** GitHub Repository:** [jalpatel2646/food-ordering-system](https://github.com/jalpatel2646/food-ordering-system)
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Interactive Terminal Menu:** Clean ANSI-colored CLI navigation using Node's `readline`.
 - **Customer Segmentation:** Dynamically assign users as either strict `Guest` or tiered `Member` using type constraints.
@@ -15,13 +15,13 @@ A fully interactive, strictly-typed terminal-based application built natively in
 - **State Management:** Preserves live order modifications inherently tracking current order status across processing phases.
 - **Robust Error Handling:** Defends against anomalous inputs utilizing strict try-catch handlers blocking system crashes.
 
-## 🚀 Extra Feature
+##  Extra Feature
 *This project encompasses an enhanced capability beyond standard assignment expectations:*
 - **Order History Viewer:** Successfully checked-out orders are locally cached into a session state layer, which can be elegantly mapped and reprinted via **Menu Option 9**.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Language:** [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
 - **Environment:** [Node.js](https://nodejs.org/)
@@ -29,7 +29,7 @@ A fully interactive, strictly-typed terminal-based application built natively in
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 food-ordering-system/
@@ -52,7 +52,7 @@ food-ordering-system/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -68,7 +68,7 @@ food-ordering-system/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 Compile and start the central terminal wizard natively using:
 ```bash
@@ -78,7 +78,7 @@ npm start
 
 ---
 
-## 📖 How to Use
+##  How to Use
 
 Simply press numbers **1-10** on your keyboard to navigate through the interactive terminal options seamlessly:
 1. **View Food Menu:** Prints all structured menu arrays wrapping Categories & System IDs cleanly.
@@ -94,7 +94,7 @@ Simply press numbers **1-10** on your keyboard to navigate through the interacti
 
 ---
 
-## 💸 Discount Rules
+##  Discount Rules
 
 Members are granted flat discounts calculated off standard cart subtotals natively. 
 
@@ -109,22 +109,22 @@ Members are granted flat discounts calculated off standard cart subtotals native
 
 ---
 
-## 🧾 GST Information
+##  GST Information
 
 A uniform standard **5% Goods and Services Tax (GST)** processes accurately mapped across all final bills securely. 
 *(Note: Following rigorous logic validations, strict GST configurations mathematically resolve purely **after** layered discounts and volume compensations have natively applied directly onto the subtotal element).*
 
 ---
 
-## 💳 Payment Methods Supported
+##  Payment Methods Supported
 
-- 💵 **Cash:** Simple structural return wrapping.
-- 💳 **Card:** Prompts directly narrowing exactly onto secure digits mappings processing explicit bounds.
-- 📱 **UPI:** Dynamic extraction bindings mapping ID endpoints directly.
+-  **Cash:** Simple structural return wrapping.
+-  **Card:** Prompts directly narrowing exactly onto secure digits mappings processing explicit bounds.
+-  **UPI:** Dynamic extraction bindings mapping ID endpoints directly.
 
 ---
 
-## 🧠 TypeScript Concepts Used
+##  TypeScript Concepts Used
 
 1. **Discriminated Unions:** Securely structuring mutually exclusive logic variants independently scaling (e.g., cleanly mapping between `BillError` vs `BillSuccess`).
 2. **Intersection Types:** Wrapping elements elegantly resolving dual conditions concurrently (combining `FoodItem` deeply targeting distinct mapping options).
@@ -134,7 +134,7 @@ A uniform standard **5% Goods and Services Tax (GST)** processes accurately mapp
 
 ---
 
-## ✅ Assignment Checklist
+##  Assignment Checklist
 
 - [x] Application runs successfully from terminal natively
 - [x] At least 8 food items structured 
@@ -157,7 +157,7 @@ A uniform standard **5% Goods and Services Tax (GST)** processes accurately mapp
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Jal Patel**  
 Feel free to connect or view the interactive logic patterns natively executed on GitHub at [jalpatel2646](https://github.com/jalpatel2646).
